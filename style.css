@@ -3,6 +3,9 @@ body {
     text-align: center;
 }
 
+.header1{
+    border:10px solid black
+}
 .myface {
     border: 10px solid black;
     margin: 10px;
@@ -12,4 +15,40 @@ body {
 #listproject{
     border: 10px solid black;
     margin:0% 20%;
+}
+
+.aboutbox{
+    border: 10px solid black;
+    margin: 20px 20px;
+
+}
+
+.icon{
+    border: 10px solid orange;
+    width: 200px;
+    height: 100px;
+}
+
+.container1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    border: 10px solid white;
+
+}
+
+.containerline1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border: 10px solid blue;
+
+}
+
+.containerline2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border: 10px solid black;
 }
